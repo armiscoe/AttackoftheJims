@@ -103,4 +103,20 @@ h2 {
     font-family: 'Press Start 2P', cursive;
 }
 
+#dancingJim {
+    position: absolute;
+    transform: rotate(90deg);
+    height: 200px;
+    width: 130px;
+    top: -30px;
 
+}
+
+#dancingJim2 {
+    position: absolute;
+    transform: rotate(90deg);
+    height: 200px;
+    width: 130px;
+    top: 225px;
+    
+}

@@ -6,6 +6,8 @@ const title = document.getElementById("title")
 const scoreboard = document.querySelector('#score span')
 const jimAnimations = ['images/chomper.gif', 'images/spinjim.gif', 'images/ohcanada.gif']
 const restartShow = document.getElementById('restart')
+const danceJim = document.createElement('img')
+
 
 
 let jimInterval 
@@ -176,7 +178,8 @@ function playGame() {
     startButton.style.display = 'none'
     instructions.style.display = 'none'
     title.style.display = 'none'
-
+    dancingJim.style.display = 'none'
+    dancingJim2.style.display = 'none'
     window.addEventListener("keydown", flyBitch);
     jimInterval = setInterval(() => { createJim() }, 1700)
 
